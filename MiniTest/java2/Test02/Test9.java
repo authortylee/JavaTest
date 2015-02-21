@@ -8,7 +8,8 @@ class Sub extends Sp{
 	}
 
 	void foo(int x){
-		this.x++;
+		x++; // 여기의 변수 x는 foo(int x) 메소드 선언에 있는 메소드 로컬 변수 x를 
+			 // 지정한다. 필드변수 x를 이용하려면 this.x로 지정 해야 한다.
 	}
 }
 
