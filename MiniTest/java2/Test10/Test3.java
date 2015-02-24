@@ -8,7 +8,7 @@ class Test{
 			System.out.println("try"); // No Processing
 		}catch(ArithmeticException e){
 			System.out.println("catch");
-		}
+		}	
 		System.out.println("end");
 	}
 }
